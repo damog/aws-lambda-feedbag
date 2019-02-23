@@ -1,4 +1,4 @@
-Source code for the AWS Lambda function and environment that runs a simple [Feedbag](https://github.com/damog/github) service:
+Source code for the AWS Lambda function and environment that runs a simple [Feedbag](https://github.com/damog/feedbag) service:
 
 ```
 $ echo "damog.net/blog" | curl -d @- \
