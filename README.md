@@ -1,3 +1,6 @@
+Description
+-----------
+
 Source code for the AWS Lambda function and environment that runs a simple [Feedbag](https://github.com/damog/feedbag) service:
 
 ```
@@ -16,6 +19,6 @@ Endpoint
 --------
 https://fitzwmnm61.execute-api.eu-west-3.amazonaws.com/default/feedbag/find
 
-Same as `Feedbag.find()`, POST directly into the endpoint. It'll return JSON.
+Same as `Feedbag.find()`, POST the URL as a string directly into the endpoint. It'll return JSON.
 
 
