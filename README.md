@@ -10,6 +10,12 @@ $ echo "nytimes.com@#$@#" | curl -d @- \
     https://fitzwmnm61.execute-api.eu-west-3.amazonaws.com/default/feedbag/find
 
 {"codeStatus":400,"output":"URI::InvalidURIError"}
-
 ```
+
+Endpoint
+--------
+https://fitzwmnm61.execute-api.eu-west-3.amazonaws.com/default/feedbag/find
+
+Same as `Feedbag.find()`, POST directly into the endpoint. It'll return JSON.
+
 
