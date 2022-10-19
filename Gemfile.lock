@@ -4,10 +4,12 @@ GEM
     feedbag (0.10)
       nokogiri (~> 1.8, >= 1.8.2)
       open_uri_redirections (~> 0.2)
-    mini_portile2 (2.4.0)
-    nokogiri (1.10.5)
-      mini_portile2 (~> 2.4.0)
+    mini_portile2 (2.8.0)
+    nokogiri (1.13.9)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     open_uri_redirections (0.2.1)
+    racc (1.6.0)
 
 PLATFORMS
   ruby
