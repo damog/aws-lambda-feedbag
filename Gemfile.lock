@@ -1,22 +1,24 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    feedbag (0.10)
+    addressable (2.8.8)
+      public_suffix (>= 2.0.2, < 8.0)
+    feedbag (1.0.2)
+      addressable (~> 2.8)
       nokogiri (~> 1.8, >= 1.8.2)
-      open_uri_redirections (~> 0.2)
-    mini_portile2 (2.8.1)
-    nokogiri (1.14.3)
+    mini_portile2 (2.8.9)
+    nokogiri (1.13.10)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    open_uri_redirections (0.2.1)
-    racc (1.6.2)
+    public_suffix (5.1.1)
+    racc (1.8.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  feedbag
-  nokogiri (>= 1.10.4)
+  feedbag (~> 1.0)
+  nokogiri
 
 BUNDLED WITH
-   2.0.1
+   1.17.2
