@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-# Lambda runtime uses Ruby 3.4 where nokogiri >= 1.18 will be installed
-# Local Ruby 2.6 will use the highest compatible version
-gem "nokogiri", ">= 1.16"
+# Lambda runtime uses Ruby 3.4 where nokogiri >= 1.18.9 will be installed
+# Update to >= 1.18.9 to resolve all dependabot security alerts
+gem "nokogiri", ">= 1.18.9"
 gem "feedbag", "~> 1.0"

@@ -1,6 +1,9 @@
 # AWS Lambda Ruby 3.4 runtime
 FROM public.ecr.aws/lambda/ruby:3.4
 
+# Install build tools for native extensions
+RUN dnf install -y gcc make && dnf clean all
+
 # Copy Gemfile first for better Docker layer caching
 COPY Gemfile Gemfile.lock ${LAMBDA_TASK_ROOT}/
 
